@@ -1,0 +1,99 @@
+img{
+height: 600px;
+width: 400px;
+}
+.all .header img{
+    height:100px;
+    width: 200px;
+    margin-left: 10%;
+}
+.header{
+    margin-bottom: -50px;
+}
+nav{
+    float: right;
+}
+.all .header ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding: 35px;
+}
+.all .header li a{
+    color: #232323;
+    padding: 20px;
+    text-decoration: none;
+    font-size: larger;
+}
+.all .slide h1{
+    color: #fff;
+    text-align: center;
+    transform: translate(14%, 100%);
+    font-size: 70px;
+    justify-content: center;
+}
+.all .slide p{
+    transform: translate(0%, 100%);
+    color: #fff;
+    text-align: center;
+}
+.all .slide button{
+    background-color: #fff;
+    border: none;
+    padding:15px 25px;
+    transform: translate(450%, 250%);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:3px 0px 10px black;
+}
+.all .slide button:hover{
+    box-shadow: none;
+}
+.all .service div{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.all .service h2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.all .service div section{
+    /* padding-left: 20%; */
+}
+.all .service div span{
+
+    color: #fff;
+    background: #075588;
+    border-radius: 10px;
+    font-size: 35vh;
+    padding:10px 50px;
+    /* margin-bottom: 10%; */
+
+}
+/* about us styling */
+.all .about{
+    background: #b8e0fa;
+    padding:20px 80px;
+}
+.all .about .content{
+    display: flex;
+    padding: 20px;
+}
+.all .about img{
+    justify-content: space-between;
+    height: 200px;
+    width: 200px; 
+    transform: translate(100%, -30%);
+    border-radius: 20%;
+    
+}
+.all .footer img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: right;
+}

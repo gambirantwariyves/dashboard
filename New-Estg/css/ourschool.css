@@ -1,0 +1,16 @@
+header{
+    position: relative;
+    top: 6rem;
+    background: linear-gradient(rgba(0,0,0,0) 60%,var(--color-bg1));
+    height: 30vh;
+    overflow: hidden;
+    margin-bottom: 5rem;    
+}
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    gap: .5rem;
+}

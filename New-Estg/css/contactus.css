@@ -1,0 +1,97 @@
+header{
+    position: relative;
+    top: 6rem;
+    background: linear-gradient(rgba(0,0,0,0) 60%,var(--color-bg1));
+    height: 30vh;
+    overflow: hidden;
+    margin-bottom: 5rem;    
+}
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    gap: .5rem;
+}
+.location{
+    background: var(--color-bg1);
+    padding: 5rem 0;
+}
+.location_container iframe{
+    width: 100%;
+}
+.contact_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 85vh;
+
+}
+.contact_container .address{
+    background: var(--color-bg1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.address .info{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.address article iframe{
+    width: 100%;
+    opacity: .2;
+}
+.contact_container .form{
+    background: var(--color-bg2);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3rem;
+    gap: 1rem;
+
+}
+.form form .email{
+    display: flex;
+    flex-direction: column;
+}
+.form form .email input,.form form .subject input, .form form .message textarea{
+    width: 100%;
+}
+.form form div input{
+    width: 18rem;
+    height: 3rem;
+}
+input[type=submit]{
+    align-self: center;
+    cursor: pointer;
+}
+input, textarea{
+    padding: 1rem;
+    margin: .5rem 0;
+    font-size: 1rem;
+    transition: var(--transition);
+    
+}
+.form form div label{
+    line-height: 1.5;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-shadow: 3px 2px 5px #00000094;
+}
+input:focus{
+    box-shadow: 5px 5px 5px #00000094;
+}

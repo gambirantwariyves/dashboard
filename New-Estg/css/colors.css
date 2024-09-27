@@ -1,0 +1,19 @@
+:root{
+    --color-primary: #6c63ff;
+    --color-success: #60bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f73642;
+    --color-danger-variant: #f7584266;
+    --color-white: #fff;
+    --color-light: #ffffffb3;
+    --color-black: #000;
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition:all 400ms ease;
+}

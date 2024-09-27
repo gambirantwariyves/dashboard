@@ -1,0 +1,429 @@
+:root{
+    --color-white:ghostwhite;
+    --color-black:#000;
+}
+.dack-them{
+    --color-white:#000;
+    --color-black:ghostwhite;
+}
+h2{
+    color: var(--color-black);
+}
+h1{
+    color: var(--color-black);
+}
+p{
+    color: var(--color-black);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white;
+    background-color: var(--color-white);
+    /* overflow-x: hidden; */
+}
+html{
+    scroll-behavior: smooth;
+
+}
+h2{
+    margin-left: 10%;
+}
+
+main, nav{
+    /* padding:0 10px; */
+}
+/* dack mode styling */
+ 
+.them li{
+    padding: 20px 15px;
+    cursor: pointer;        
+}
+.them{
+    z-index: 999;
+}
+.active{
+    background: white;
+}
+/* header styling */
+ul{
+    list-style-type: none;
+    color: var(--color-black);
+}
+a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+button{
+    cursor: pointer;
+    color: var(--color-black);
+}
+
+/* main body */
+main .bodyConteiner .conteiner2{
+    /* height: 20vh; */
+    position: relative;
+    /* overflow-x: hidden; */
+}
+main .bodyConteiner img{
+    width: 60vh;
+    /* padding-right: 200px; */
+}
+
+main .bodyConteiner .conteiner1{
+    padding: 10% 10%;
+}
+
+main .bodyConteiner h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main .bodyConteiner p{
+    padding-bottom: 10%;
+}
+
+main .bodyConteiner button{
+    padding:19px 35px;
+    background: rgb(7, 171, 7);
+    color: var(--color-white);
+    border-radius: 12px;
+    border: 1px solid rgb(7, 171, 7);
+    font-size: 20px;
+}
+
+main .bodyConteiner .star, .check, .layer{
+    padding: 120px;
+    position: absolute;
+    color: #fff;
+}
+.star span{
+    position: absolute;
+    background: rgb(239, 85, 20);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.check span{
+    background-color: rgb(36, 148, 36);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-100%, 400%);
+}
+.layer span{
+    background-color: rgb(36, 148, 36);
+    position: absolute;
+    padding: 20px;
+    border-radius: 15px;
+    transform: translate(550%, 100%);
+}
+
+.whatToDo h4{
+    color: rgb(121, 242, 121);
+}
+
+.whatToDo{
+    padding-top: 50px;
+    left: 0;
+}
+
+.whatToDo .learnMore .learn{
+    padding:50px 20px;
+    background: var(--color-white);
+    padding-right: 60px; 
+    color: var(--color-black);
+    transition: 300ms;
+    border-radius: 20px;
+}
+.whatToDo .learnMore .learn:hover{
+    box-shadow: 5px 10px 20px rgba(68, 88, 144, 0.2);;
+}
+.whatToDo .learnMore .learn:hover a{
+    background: rgb(239, 85, 20);
+    color: #fff;
+    
+}
+.whatToDo .learnMore .learn div span{
+    padding: 20px;
+    color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+    background: rgb(181, 253, 181);
+}
+.whatToDo .learnMore .learn h2{
+    padding-top: 20px;
+}
+.whatToDo .learnMore .learn .other{
+    padding-top: 70px;
+    background: none;
+}
+.whatToDo .learnMore .learn p{
+    padding-bottom: 70px;
+}
+.whatToDo .learnMore .learn a{
+    transition: 300ms;
+    padding: 10px;
+    color:var(--color-black);
+    font-size: 20px;
+    float: left;
+    border-radius: 10px;
+}
+.whatToDo .learnMore .learn a:hover{
+    transform: translate(10%,0);
+}
+main .subscribe{
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+main .subscribe p{
+    padding-bottom: 50px;
+}
+main .subscribe input{
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+main .subscribe button{
+    padding:13px 20px;
+    border-radius: 10px;
+    border: none;
+    color: var(--color-black);
+    transform: translate(-108%, 0);
+    background: rgb(239, 85, 20);
+}
+.footer{
+    background: rgb(42, 175, 42);
+    left: 0;
+}
+
+.footer .sect .section{
+    padding: 20px;
+}
+.footer .sect .section ul li{
+    padding: 15px;
+}
+.footer{
+    padding: 60px;
+}
+.footer .copy{
+    /* text-align: center; */
+    padding: 20px;
+}
+.footer .sect .section span{
+    font-size: 25px;
+    /* padding-top: 10px; */
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(36, 148, 36);
+    color: #fff;
+}
+.footer .sect .section .socialMedia{
+    padding-top: 20px;
+}
+.parent nav .header ul button{
+    padding: 10px 20px;
+    background: var(--color-white);
+    border-radius: 10px;
+    transform: translate(0, -20%);
+    border: 1px solid rgb(7, 171, 7);
+    transition: 300ms;
+}
+.parent nav .header ul .register{
+    background: rgb(7, 171, 7);
+    color: var(--color-white);
+}
+.parent nav .header ul .register:hover{
+    background: #fff;
+    color: rgb(7, 171, 7);
+}
+.parent nav .header ul .login:hover {
+    background: rgb(7, 171, 7);
+    color: #fff;
+}
+.navigationbar{
+    width: 650px;
+    margin-right: 10%;
+}
+@media screen and (min-width: 375px) {
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .whatToDo .learnMore {
+        display: block;
+        padding-top: 20%;
+    }
+   
+    .parent nav .logo{
+        display: flex;
+        padding: 10px;
+        box-shadow: 5px 10px 20px rgba(68, 88, 144, 0.2);
+    }
+    .them{
+        transform: translate(0,-50%);
+        background: rgb(246, 234, 212);
+        color: #000;
+        display: flex;
+        float: right;
+        z-index: 999;
+        border-radius: 10px;
+    }
+    .them li span{
+       font-size: 15px;
+   }
+.parent nav .header .navigationbar{
+    /* margin-top: 10%;
+    display: block;*/
+    height: 100vh;
+    width: 0;
+    position: absolute;
+    z-index: 999;
+    background: wheat;
+    overflow: hidden;
+    transition: all ease 300ms;
+    
+}
+
+.parent nav .header .navigationbar li{
+    padding: 20px;
+   }
+
+   /* .parent nav .header ul li:hover{
+    transform: translate(10%,0);
+   }*/
+   .logo{
+    display: flex;
+   }
+    .menu{
+    font-size: 20px;
+    color: var(--color-black);
+    cursor: pointer;
+}
+.closenav span{
+    font-size: 50px;
+    float: right;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.closenav{
+    display: block;
+}
+main .bodyConteiner{
+    display: block;
+}
+main .sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .sponsor img{
+    width: 10vh;
+}
+.footer .sect{
+    display: block;
+}
+}
+@media screen and (min-width: 768px) {
+    .footer .sect{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px,0;
+    }
+    .whatToDo .learnMore{
+        justify-content: space-between;
+        display: flex;
+        padding: 70px 40px;
+        /* background: wheat; */
+    }
+    .whatToDo .learnMore .learn{
+        padding:50px 20px;
+        background: var(--color-white);
+        padding-right: 60px; 
+        color: var(--color-black);
+        transition: 300ms;
+        border-radius: 20px;
+    }
+    main .sponsor{
+        display: flex;
+        background: rgb(255, 238, 208);
+    }
+    main .sponsor img{
+        width: 10vh;
+        color: white;
+        height: 10vh;
+        padding: 10px 20px;
+    }
+    .parent nav .logo .menu{
+        display: none;
+        color: var(--color-black);
+    }
+    main .bodyConteiner{
+        margin-top: 5%;
+        display: flex;  
+    }
+    .them{
+        float: right;
+
+        display: flex;
+        background: rgb(246, 234, 212);
+        color: #000;
+        border-radius: 10px;
+   }
+   .parent nav{
+    position: relative;
+}
+.parent nav .header{
+    display: flex;
+    justify-content: flex-end;
+    /* transform: translate(30%); */
+
+}
+.parent nav .header ul{
+    display: flex;
+}
+.parent nav .header ul li{
+    padding: 12px 30px;
+}
+.parent nav .header ul li a{
+    color: var(--color-black);
+}
+.parent nav .logo{
+    padding-top:20px;
+}
+.parent nav .header ul button{
+    padding: 10px 20px;
+    background: var(--color-white);
+    border-radius: 10px;
+    transform: translate(0, -20%);
+    border: 1px solid rgb(7, 171, 7);
+    transition: 300ms;
+}
+
+
+.parent nav .header .navigationbar{
+    display: flex;
+    background: none;
+}
+
+.closenav{
+    display: none;
+}
+
+.menu{
+    font-size: 20px;
+    color: var(--color-black);
+    cursor: pointer;
+    display: none;
+}
+.parent nav .header .navigationbar{
+    width: 100%;
+    justify-content: center;
+}
+
+}

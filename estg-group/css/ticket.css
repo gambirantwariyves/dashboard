@@ -1,0 +1,176 @@
+ *{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  top: 0;
+  /* position: fixed; */
+  z-index: 99;
+}
+
+header .ticket-header{
+  position: relative;
+  background-color: #040A33;
+  padding: 30px;
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+  z-index: 999;
+}
+
+header img{
+  position: absolute;
+}
+
+.ticket-header.sticky{
+  position: sticky;
+  top: 0;
+  height: 10px;
+  animation: appear .5s ease;
+}
+@keyframes appear {
+  from{
+    top:-50px;
+    opacity: 0;
+  }
+  to{
+    top: 0;
+    opacity: 1;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+header .conteiner span{
+  color: #fff;
+}
+
+header .ticket-header .conent2 span{
+  color: #707070;
+}
+
+header .ticket-header h4{
+  color: #fff;
+}
+
+.conteiner{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.price{
+   display: flex;
+  /* width: 100% !important; */
+  overflow-x: auto;
+  padding: 10px;  
+}
+
+.price .price1{
+  
+   display: flex;
+  color: #fff;
+  /* flex-wrap: nowrap !important; */
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.16);
+  width: 300px; 
+}
+.price .price1 span{
+  width: 200px;
+}
+
+.money{
+  color: #707070;
+}
+
+ .active{
+   background-color: #F0FCF7;
+   border-radius: 10px;
+   padding: 5px;
+} 
+
+.active a{
+  color: #040A33;
+}
+
+.booked-ticket{
+  border: 1px solid #B1D2BE;
+  padding: 10px 20px 0px 0px;
+  border-radius: 10px;
+}
+
+  .booked-ticket .conteiner-price{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .booked-ticket .conteiner-price .content1 .img{
+    width: 100px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    /* background: #040A33; */
+    position: relative;
+
+  }
+  .content1 img{
+    width: 100%;
+    position: absolute;
+    aspect-ratio: 1;
+    transform: translate(0,-40%);
+    padding: 10px;
+  }
+
+  .content1 {
+    display: flex;
+  }
+
+  .content1 a{
+    color: #049A68;
+    background: #D3F3E0;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2px 20px;
+    margin: auto;
+    position: absolute;
+  }
+
+  .booked-ticket .time{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 33px;
+  }
+
+  .booked-ticket .time span{
+    border: 1px solid #B1D2BE;
+    padding: 0px 10px;
+    border-radius: 10px;
+    color: #9BD2B2;
+  }
+
+  .diteil{
+    padding-left: 20px;
+  }
+
+.diteil span{
+  padding: 0px 10px;
+  border: 1px solid #9BD2B2;
+  background: #F0FCF7;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.d-conteiner{
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+
+  @media (max-width:375px) {
+
+  }

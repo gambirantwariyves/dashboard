@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: #707070;
+}
+
+ header .title{
+  display: flex;
+  justify-content: space-between;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.705), rgba(255, 255, 255, 0.605)), url("../images/dual_monitor_screen_multi_multiple_earth_terre_planet_continent__3840x1080.jpg");
+  background-size: cover;
+  background-position: fixed;
+}
+
+.title .logo div{
+  width: 140px;
+  height: 140px;
+  /* background: #333; */
+}
+
+.logo img{
+  width: 100%;
+}
+
+.title .profile{
+  padding: 60px;
+}
+
+.logo{
+  position: relative;
+
+}
+
+.active{
+  background-color: #F0FCF7;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.active a{
+  color: #040A33;
+}
+
+.title .profile div{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #333;
+}
+
+.profile img{
+  border-radius: 50%;
+}
+
+.title .logo p{
+  color: #707070;
+  top: 70%;
+  position: absolute;
+
+}
+
+.search button{
+  background: #040A33;
+  color: #fff;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.one-way .from, .to, .date{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #707070;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+@media (max-width:400px) {
+  nav{
+    position: absolute;
+    bottom: 1%;
+    position: fixed;
+    background-color: #040A33;
+    padding:15px 50px;
+    z-index: 999;
+    left: 10px;
+    border-radius: 30px;
+  }
+  
+  nav a{
+    color: #fff;
+    font-size: large;
+    padding: 10px 30px;
+
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .one-way .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .one-way .title1{
+    display: flex;
+  }
+  .one-way {
+    border: 1px solid #707070;
+    padding: 5px;
+  }
+
+  main{
+    padding: 10px;
+  }
+
+  .one-way h4{
+    padding: 0px 10px;
+  }
+
+  .one-way p{
+    color: #707070;
+  }
+
+
+
+  .one-way input, button{
+    padding: 20px 20px;
+    border: none;
+  }
+
+
+
+  .cheap-ticket .title{
+    font-size: small;
+  }
+
+  .cheap-ticket .find-ticket{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cheap-ticket .find1{
+    background-color: #F0FCF7;
+    padding: 10px 50px;
+    display: block;
+    position: relative;
+    border: 1px solid #C7BEBE;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .cheap-ticket .find1 a{
+    background: #B1D2BE;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #000;
+    position: absolute;
+  }
+
+  .cheap-ticket .find2{
+    background-color: #F0FCF7;
+    padding: 10px 40px;
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    border: 1px solid #C7BEBE;
+  }
+
+  .find2 span{
+    color: #707070;
+    font-size: smaller;
+  }
+
+
+
+
+
+}
